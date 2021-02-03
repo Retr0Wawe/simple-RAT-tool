@@ -46,7 +46,7 @@ public:
 
 	void ping_client()
 	{
-
+		//coming soon :)
 	}
 
 	void connection_accept(SOCKET sock)
