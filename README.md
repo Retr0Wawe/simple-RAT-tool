@@ -23,10 +23,10 @@ extern "C" EXPORT void client()
 	Client client("127.0.0.1", 4444);
 }
 ```
-### Dll startup:
+# Dll startup:
 The dll can be launched in several ways:
-## 1)Launch with rundll32.exe (during tests, the launch took place):
+### 1)Launch with rundll32.exe (during tests, the launch took place):
 rundll32.exe name.dll, dll entry point
 
-## 2)You can export dll from your program and run it there:
-Coming soon:)
+### 2)You can export dll from your program and run it there:
+Coming soon :)
