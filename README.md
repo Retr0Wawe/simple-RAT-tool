@@ -1,4 +1,4 @@
-# simple-RAT-tool v 1.2
+# simple-RAT-tool v1.2
 A simple tool for remote administration of your computer, implemented using dll and sockets.
 
 ### Start Server:
