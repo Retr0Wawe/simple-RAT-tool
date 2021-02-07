@@ -12,7 +12,7 @@ int main()
   	return 0;
 }
 ```
-### Assembly DLL:
+### Setting up the entry point and building the Dll:
 ```cpp
 #include "client_sock.h"
 
