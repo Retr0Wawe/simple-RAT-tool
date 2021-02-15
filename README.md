@@ -20,7 +20,7 @@ int main()
 
 extern "C" EXPORT void client()
 {
-	Client client("127.0.0.1", 4444);
+	Client client("127.0.0.1", 4444); //ip:port
 }
 ```
 # Dll startup:
