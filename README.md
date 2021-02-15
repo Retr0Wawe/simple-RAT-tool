@@ -1,4 +1,4 @@
-# simple-RAT-tool v1.2
+# simple-RAT-tool v1.3
 A simple tool for remote administration of your computer, implemented using dll and sockets.
 
 ### Start Server:
@@ -34,7 +34,7 @@ rundll32.exe name.dll, dll entry point
 format PE console
 include 'win32a.inc'
 
-      entry DllEntrypoint
+       entry DllEntrypoint
 
 section '.data' data readable writable
 
