@@ -49,7 +49,8 @@ section '.text' code readable executable
         DllEntrypoint:
                 push result
                 call [printf]
-                invoke client
+                invoke client      //Calling the library from the import table by specifying the entry point
+		
 
 section '.idata' import data readable
 
