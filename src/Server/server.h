@@ -10,9 +10,9 @@ class Server {
 	const short PORT;
 	static const short max_connections = 50;
 	SOCKADDR_IN addr;
+	int size_addr = sizeof(addr);
 	SOCKET set_sock;
 	SOCKET users[max_connections];
-	int size_addr = sizeof(addr);
 	short con_counts = 0;
 public:
 	Server(const char* ip, const short port) : IP(ip), PORT(port) {
