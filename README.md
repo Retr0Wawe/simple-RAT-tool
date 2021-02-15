@@ -29,7 +29,7 @@ The dll can be launched in several ways:
 rundll32.exe name.dll, dll entry point
 
 ### 2)You can export dll from your program and run it there:
-This is how it will look on assembler:
+##This is how it will look on assembler:
 ```asm
 format PE console
 include 'win32a.inc'
@@ -60,4 +60,5 @@ section '.idata' import data readable
                printf, 'printf'
 ```
 Or in c ++:
+
 Coming soon :)
