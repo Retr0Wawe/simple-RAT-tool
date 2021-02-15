@@ -72,7 +72,6 @@ public:
 		else {
 			send(sock, " ", 1, 0);
 		}
-
 		delete func;
 	}
 
