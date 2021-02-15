@@ -32,6 +32,7 @@ rundll32.exe name.dll, dll entry point
 #### This is how it will look on assembler(FASM):
 ```asm
 format PE console
+
 include 'win32a.inc'
 
        entry DllEntrypoint
