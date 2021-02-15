@@ -30,6 +30,8 @@ rundll32.exe name.dll, dll entry point
 
 ### 2)You can export dll from your program and run it there:
 #### This is how it will look on assembler(FASM):
+Note: the program must be in the same directory with the dll!
+
 ```asm
 format PE console
 
