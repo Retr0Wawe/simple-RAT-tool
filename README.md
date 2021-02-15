@@ -30,7 +30,7 @@ rundll32.exe name.dll, dll entry point
 
 ### 2)You can export dll from your program and run it there:
 #### This is how it will look on assembler:
-```asm
+```fasm
 format PE console
 include 'win32a.inc'
 
