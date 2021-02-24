@@ -64,8 +64,8 @@ section '.idata' import data readable
         import msvcrt,\
                printf, 'printf'
 ```
-#Virus total check:
+# Virus total check:
 
 https://www.virustotal.com/gui/file/17744a6ca38587e82bd49790566a9fb10cedebd4a9d62b59ef8661540f75378b/detection
 
- ![Virus Total](https://www.virustotal.com/gui/file/17744a6ca38587e82bd49790566a9fb10cedebd4a9d62b59ef8661540f75378b/detection "Screenshot from virus total.") 
+ ![Virus Total](simple-RAT-tool/Screenshot_20210224_185124.png  "Screenshot from virus total.") 
