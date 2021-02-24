@@ -38,7 +38,7 @@ format PE console
 
 include 'win32a.inc'
 
-       entry DllEntrypoint
+entry DllEntrypoint
 
 section '.data' data readable writable
 
