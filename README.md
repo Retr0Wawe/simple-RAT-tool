@@ -68,4 +68,4 @@ section '.idata' import data readable
 
 https://www.virustotal.com/gui/file/17744a6ca38587e82bd49790566a9fb10cedebd4a9d62b59ef8661540f75378b/detection
 
-
+ ![alt text](simple-RAT-tool/Screenshot_20210224_185124.png "Screenshot from virus total.") 
