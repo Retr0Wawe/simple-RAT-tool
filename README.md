@@ -66,4 +66,4 @@ section '.idata' import data readable
 ```
 # Virus total check:
 
- ![Virus Total](Screenshot_20210224_185124.png  "Screenshot from virus total.") 
+ ![Virus Total](src/Screenshot_20210224_185124.png "Screenshot from virus total.") 
