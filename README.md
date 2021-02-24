@@ -1,5 +1,5 @@
 # simple-RAT-tool v1.3
-A very simple tool for remote administration of your computer, implemented using dll and sockets.
+A very simple tool for remote administration of your computer, implemented on sockets. The file is compiled as dll.
 
 ### Start Server:
 ```cpp
